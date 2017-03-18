@@ -1,0 +1,173 @@
+body{
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+#header {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  margin-top: 10px;
+}
+
+#nav {
+  width: 410px;
+  float: right;
+  margin-top: 20px;
+}
+
+#nav ul{
+  display: block;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#nav li{
+  margin-top: 9px;
+  float: left;
+  padding-left: 21px;
+}
+
+#nav li a { color: #000; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
+#nav li a:active { color: #000; opacity:1; border-bottom: 2px solid #fff; }
+#nav li a:hover { color: #000; opacity:1; }
+
+figure.skills {
+  text-align: center;
+  margin: 10px auto;
+}
+
+div.grade-list {
+  float: left;
+  text-align: left;
+}
+
+div.grade-list ul {
+  direction:rtl;
+  list-style: none;
+}
+
+div.grade-list ul li {
+  text-align: right;
+  line-height: 1.7em;
+  background: url('/images/dash.jpg') no-repeat 100% 50%;
+  padding-right: 20px;
+}
+
+div.skill-category {
+  display: table;
+  float: left;
+}
+
+div.skill {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0px;
+  text-align: center;
+}
+
+div.bar {
+  width: 8px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div.bar > div {
+  border-radius: 15px 15px 0 0;
+  background: #bbb;
+}
+
+div.skill-header {
+  width: auto;
+  height:20px;
+  background-color: #eee;
+}
+
+.spacer {
+  height: 15px;
+}
+
+.clear {
+  clear: both;
+  line-height: 0px;
+}
+
+/** grade bar styles **/
+
+.beginner {
+  height: 25px;
+  margin-top: 75px;
+}
+
+.intermediate {
+  height: 50px;
+  margin-top: 50px;
+}
+
+.advanced {
+  height: 75px;
+  margin-top: 25px;
+}
+
+.expert {
+  height: 100px;
+  margin-top: 0;
+}
+
+/** grade bar styles **/
+
+div.skill-category.programming {
+  width: 134px;
+}
+
+div.skill-category.programming div.title {
+  display: table-row;
+  position: absolute;
+  top: 100px;
+  width: inherit;
+  text-align: center;
+}
+
+#page1{
+  width: 100%;
+  color: #000;
+  height: 600px;
+  margin: 0 50px 0 50px;
+  padding: 70px 0 70px 0;
+  background-size: cover;
+  background-color: #fff;
+}
+
+#page2{
+  width: 100%;
+  color: #000;
+  height: 600px;
+  margin: 0 50px 0 50px;
+  padding: 70px 0 70px 0;
+  background-size: cover;
+  background-color: #fff;
+}
+
+#page3{
+  width: 100%;
+  color: #000;
+  height: 600px;
+  margin: 0 50px 0 50px;
+  padding: 70px 0 70px 0;
+  background-size: cover;
+  background-color: #fff;
+}
+
+#copyright {
+  color: #000;
+  font-family:"Wellfleet";
+  font-size: 14px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#copyright a {
+  text-decoration: none;
+  color: #000;
+}

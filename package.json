@@ -7,6 +7,7 @@
   "author": "vimalniroshan <vimalniroshan@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
+    "bootstrap": "3",
     "express": "^4.15.2"
   },
   "scripts": {
