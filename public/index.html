@@ -21,135 +21,9 @@
     <div id="page1">
        <a id="about" class="smooth"></a>
        <h1>Vimal Niroshaη</h1>
-       <div class="grade-list col-lg-2 col-md-2 col-sm-2 hidden-xs">
-         <ul>
-           <li>expert</li>
-           <li>advanced</li>
-           <li>intermediate</li>
-           <li>beginner</li>
-         </ul>
+       <div style="width:300px; height:100px">
+         <canvas id="skills-chart" width="300" height="100"></canvas>
        </div>
-       <figure class="skills col-lg-10 col-md-10 col-sm-10">
-             <div class="grade-list visible-xs">
-               <ul>
-                 <li>expert</li>
-                 <li>advanced</li>
-                 <li>intermediate</li>
-                 <li>beginner</li>
-               </ul>
-             </div>
-             <div class="skill-category programing">
-                <div class="title">Programing</div>
-                <div class="skill">
-                  <div class="bar">
-                    <div class="expert"></div>
-                  </div>
-                  <div class="skill-header"></div>
-                  <label>Java</label>
-                </div>
-                <div class="skill">
-                  <div class="bar">
-                    <div class="advanced"></div>
-                  </div>
-                  <div class="skill-header"></div>
-                  <div class="spacer"></div>
-                  <label>nodejs</label>
-                </div>
-                <div class="skill">
-                  <div class="bar">
-                    <div class="advanced"></div>
-                  </div>
-                  <div class="skill-header"></div>
-                  <label>SQL</label>
-                </div>
-                <div class="skill">
-                  <div class="bar">
-                    <div class="intermediate"></div>
-                  </div>
-                  <div class="skill-header"></div>
-                  <div class="spacer"></div>
-                  <label>C,C++</label>
-                </div>
-                <div class="skill">
-                  <div class="bar">
-                    <div class="beginner"></div>
-                  </div>
-                  <div class="skill-header"></div>
-                  <label>Python</label>
-                </div>
-             </div>
-             <div class="clear visible-xs"></div>
-             <div class="grade-list visible-xs">
-               <ul>
-                 <li>expert</li>
-                 <li>advanced</li>
-                 <li>intermediate</li>
-                 <li>beginner</li>
-               </ul>
-             </div>
-             <div class="skill-category system-design">
-               <div class="title">System Design</div>
-               <div class="skill">
-                 <div class="bar">
-                   <div class="expert"></div>
-                 </div>
-                 <div class="skill-header"></div>
-                 <label>Spring</label>
-               </div>
-               <div class="skill">
-                 <div class="bar">
-                   <div class="expert"></div>
-                 </div>
-                 <div class="skill-header"></div>
-                 <div class="spacer"></div>
-                 <label>Hibernate</label>
-               </div>
-               <div class="skill">
-                 <div class="bar">
-                   <div class="expert"></div>
-                 </div>
-                 <div class="skill-header"></div>
-                 <label>SOAP</label>
-               </div>
-               <div class="skill">
-                 <div class="bar">
-                   <div class="expert"></div>
-                 </div>
-                 <div class="skill-header"></div>
-                 <div class="spacer"></div>
-                 <label>REST</label>
-               </div>
-               <div class="skill">
-                 <div class="bar">
-                   <div class="advanced"></div>
-                 </div>
-                 <div class="skill-header"></div>
-                 <label>BRMS</label>
-               </div>
-             </div>
-             <div class="clear visible-xs"></div>
-             <div class="grade-list visible-xs">
-               <ul>
-                 <li>expert</li>
-                 <li>advanced</li>
-                 <li>intermediate</li>
-                 <li>beginner</li>
-               </ul>
-             </div>
-             <div class="skill-category front-end">
-             </div>
-             <div class="clear visible-xs"></div>
-             <div class="grade-list visible-xs">
-               <ul>
-                 <li>expert</li>
-                 <li>advanced</li>
-                 <li>intermediate</li>
-                 <li>beginner</li>
-               </ul>
-             </div>
-             <div class="skill-category addtional-skills">
-             </div>
-       </figure>
     </div>
 
     <div id="page2">
@@ -166,17 +40,9 @@
 
     <!-- javascripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-    <script>
-    $('.smooth').on('click', function() {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
-        });
-
-        return false;
-    });
-    </script>
+    <script src="/scripts/jquery.smooth-scroll.min.js"></script>
+    <script src="/scripts/Chart.min.js"></script>
+    <script src="/scripts/app.js"></script>
     <!-- end of javascripts -->
   </body>
 </html>
